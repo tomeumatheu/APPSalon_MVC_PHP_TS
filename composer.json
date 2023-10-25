@@ -1,0 +1,24 @@
+{
+    "name": "bartomeusunyermatheu/app-salon_mvc_tomeu",
+    "description": "Proyecto PHP 8, Gul , MVC, SQL, SASS",
+    "type": "project",
+    "autoload": {
+        
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+                       
+        }
+    },
+    "authors": [
+        {
+            "name": "Tomeu"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
